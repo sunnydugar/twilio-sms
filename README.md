@@ -3,21 +3,23 @@
 
 Step 1: Create enviornment variables
 
-  export TWILIO_ACCOUNT_SID=
+  export TWILIO_ACCOUNT_SID= "Your ACCOUNT SID"
   
-  export TWILIO_AUTH_TOKEN=
+  export TWILIO_AUTH_TOKEN= "Your AUTH Token"
   
-  export TWILIO_SMS_NUMBER=
+  export TWILIO_SMS_NUMBER= "Your Phone Number"
   
-  Step 2:
-    Command to run the project:   npm run start
+Step 2:
+    Command to run the project:   node indexsms.js
     
     
-  API call to make:     http://localhost:3000/sms
+  API call to URL:    http://localhost:3000/sms
   
   METHOD:               POST
   
-  PAYLOAD:              {
-                            "message": "This is from Postman To api TO Twilio to Devivce",
-                             "to": "+11234567890"
+  PAYLOAD / BODY:       {
+                            "message": "This is from Postman To api To Twilio to Device",
+                             "to": "+12036668689"
                         }
+
+Completed Successfully with Message SID received and SMS received to the Phone Number
