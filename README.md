@@ -17,9 +17,9 @@ Step 2:
   
   METHOD:               POST
   
-  PAYLOAD / BODY:       {
+  PAYLOAD / BODY:       
                             "message": "This is from Postman To api To Twilio to Device",
                              "to": "+12036668689"
-                        }
+                        
 
 Completed Successfully with Message SID received and SMS received to the Phone Number
