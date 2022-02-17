@@ -4,7 +4,9 @@
 Step 1: Create enviornment variables
 
   export TWILIO_ACCOUNT_SID=
+  
   export TWILIO_AUTH_TOKEN=
+  
   export TWILIO_SMS_NUMBER=
   
   Step 2:
